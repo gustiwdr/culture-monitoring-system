@@ -48,7 +48,7 @@ The Culture Monitoring System is a mini application built using Laravel 8, Postg
    After the Docker containers are up, enter the Laravel container:
 
    ```bash
-   docker-compose exec backend_container bash
+   docker exec -it backend_container bash
    ```
 
    Inside the container, run the following command to install Laravel dependencies:
